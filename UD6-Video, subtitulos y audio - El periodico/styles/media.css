@@ -1,0 +1,76 @@
+@charset "utf-8";
+:root {
+    font-size: 14px;
+}
+/* Estilos audio */
+.testimonio {
+    width: auto;
+    background-color: #ccc;
+    max-width: 800px;
+    max-height: 200px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 20px #ccc;
+    display: grid;
+    grid-template-columns: minmax(auto, 200px) 1fr;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+
+.testimonio h3 {
+    font-size: 1.5rem;
+}
+
+.testimonio figure {
+    width: 100%;
+    height:  auto;
+    min-height: 144px;
+    overflow: hidden;
+    border-radius: 20px;
+
+    
+}
+
+.testimonio figure img { /* pa que axuste o tamaño da imaxe */
+    width: 100%;
+    height: auto; /* simepre para que non se deforme */
+}
+
+audio,
+video  {
+    box-shadow: 10px 15px 20px rgb(44, 43, 43);
+    border-radius: 26px;
+    margin: 1% auto;
+    width: 95%;
+}
+
+/* Estilos subtitulos */
+::cue {
+    background-color: rgba(0,0,0,0.3);
+    text-shadow: 1px 1px 2px black;
+    color: red;
+    font:1.5rem sans serif;
+
+}
+
+::cue(v[voice=padre]) {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: orange;
+    font-size: 1.4rem;
+}
+
+::cue(v[voice=narrador]) {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5rem;
+}
+
+::cue(v[voice=entrenador]) {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+::cue(.fin){
+    font-family: sans-serif;
+    color: brown;
+    background-color: aquamarine;
+}
