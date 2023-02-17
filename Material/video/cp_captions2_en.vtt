@@ -1,0 +1,20 @@
+WEBVTT
+
+Titulo
+00:00:00.500 --> 00:00:10.500 line:5% align:middle
+<c.titulo>The Hat Rack Dance</c>
+
+Subtitulos
+00:00:15.500 --> 00:00:20.500 line:5% align:middle
+<c.subtitulos><i>"Royal Wedding (1951)</i></c>
+
+Narrador
+00:00:30.000 --> 00:00:40.000 line:5% align:start
+<v narrador>It was the best of times...
+
+Fin 
+00:00:50.000 --> 00:01:11.000 line:80% align:end position:90%
+<c.fin>See more videos on <i>Cinema Penguin</i></c>
+
+
+

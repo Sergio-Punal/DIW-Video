@@ -1,0 +1,62 @@
+@charset "utf-8";
+audio,
+video {
+   width: 95%;
+   margin: 1% auto;
+   border-radius: 10px;
+   box-shadow: 10px 15px 20px rgb(44, 43, 43);
+
+}
+
+/*
+   Deseño de interfaces Web
+   Unidad Didáctica 6
+   Práctica 2
+
+   Página Web del Cine Penguin Royal Wedding 
+   Autor: 
+   Fecha:   
+
+   Fichero:   cp_animate.css
+
+*/
+
+/* Estilos de transición */
+
+
+/* Estilos de fotogramas clave */
+
+
+
+/* Estilos de animación */
+
+
+
+/* Estilos de iconos de animación */
+
+::cue{
+   background-color: transparent;
+   text-shadow: 1px 1px 2px black;
+   color: rgb(255,177,66);
+   font-size: 1.2em;
+   font-family: sans-serif;
+ }
+
+ ::cue(.titulo) {
+   font-size: 2em;
+   font-family: serif;
+   color: blue;
+ }
+
+ ::cue(V[voice=narrador]) {
+   color:white;
+   font-size: 1.5em;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+
+ ::cue(.fin) {
+   color: yellow;
+   font-size: 2.5em;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ }
+ 
